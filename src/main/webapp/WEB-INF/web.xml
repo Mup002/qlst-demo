@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+    <welcome-file-list>
+        <welcome-file>gdChinhQly.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>XemThongKeServlet</servlet-name>
+        <jsp-file>/gdChonTK.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>XemThongKeServlet</servlet-name>
+        <url-pattern>/xemthongke</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>XemThongKeNCCServlet</servlet-name>
+        <jsp-file>/gdTKNCC.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>XemThongKeNCCServlet</servlet-name>
+        <url-pattern>/tkncc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>XemThongKeCacLanNhapHangServlet</servlet-name>
+        <jsp-file>/gdTKCacLanNhapHang.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>XemThongKeCacLanNhapHangServlet</servlet-name>
+        <url-pattern>/tkcaclannhaphang</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>XemThongKeNhapHangServlet</servlet-name>
+        <jsp-file>/gdTKNhapHang.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>XemThongKeNhapHangServlet</servlet-name>
+        <url-pattern>/tknhaphang</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GdChinhKhachHang</servlet-name>
+        <jsp-file>/gdChinhKH.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GdChinhKhachHang</servlet-name>
+        <url-pattern>/gdKH</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChiTietMatHang</servlet-name>
+        <jsp-file>/gdChiTietMatHang.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChiTietMatHang</servlet-name>
+        <url-pattern>/chitiet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

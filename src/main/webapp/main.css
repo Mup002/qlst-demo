@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.admin-container, .user-container{
+    width: 100%;
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+.header h1 {
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.admin-container a {
+    color: red;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    font-size:20px;
+}
+.user-container a{
+    color: red;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    font-size:20px;
+}
+#searchForm {
+    margin-bottom: 20px;
+}
+#mathangTable {
+    margin-top: 10px;
+    text-align: center;
+}
+#user-content{
+    height: 100px !important;
+}
